@@ -1,0 +1,32 @@
+JS data type -
+
+Premitive types:-
+1. number.
+2. string.
+3. Boolean.
+4. null.
+5. BigInt.
+6. symbol.
+7. undefine
+
+Variable declearation:-
+
+var,let,const :- keyword (declearation of variable)
+  
+syntax:-
+1.
+var a =5
+var a = 7 (redeclear and reassign is possible)
+It is not a follow block scope
+2.
+let b = 7;
+ b= 10 (redeclear is not possible and reassign is possible)
+ It is a follow block scope.
+3.
+const = 5;
+ (redeclear and reassign  both is not possible).
+It is also follow block scope.
+
+normal case:- let  firstname.
+camel case :- let  firstName.
+cabab case :- let first_name.
