@@ -52,15 +52,27 @@ let step4=  function(){
      },1000)
     })    
  }
-  step1().then((data)=>{
+//   step1().then((data)=>{
+//     console.log(data);
+//     return step2().then((filter)=>{
+//        console.log(filter);
+//        return step3().then((caption)=>{
+//         console.log(caption);
+//         return step4().then((post)=>{
+//             console.log(post);
+//         })
+//        })
+//     })
+// })
+///////////// async await
+async function kalajadu(){
+    let data = await step1()
     console.log(data);
-    return step2().then((filter)=>{
-       console.log(filter);
-       return step3().then((caption)=>{
-        console.log(caption);
-        return step4().then((post)=>{
-            console.log(post);
-        })
-       })
-    })
-})
+    let data1 = await step2()
+    console.log(data1);
+    let data2 = await step3()
+    console.log(data2);
+    let data3= await step4()
+    console.log(data3);
+}
+kalajadu()
