@@ -52,11 +52,12 @@
     color: white;
   
     transition-property: transform;
-    transition-duration: 200ms;
+    transition-duration: 1000ms;
   }
   
+  
   button:active {
-    transform: scale(0.85);
+    transform: scale(0.80);
   }
   
   .gray-button {

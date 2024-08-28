@@ -1,0 +1,12 @@
+#weather{
+
+    margin-left: 150px;
+    height: 80vh;
+    width: 500px;
+    background-color: rgb(92, 201, 164);
+}
+input{
+    margin-top: 50px;
+    border-radius: 25%;
+    font-size: 24px;
+}
