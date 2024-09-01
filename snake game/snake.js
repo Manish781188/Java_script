@@ -10,7 +10,7 @@ let randomXell=generateRandomCell()
 let id= setInterval(()=>{
    draw()
    update()
- },300)
+ },200)
 document.addEventListener('keydown',(e)=>{
  if(e.key==='ArrowDown'){
    direction='down'
@@ -32,8 +32,8 @@ direction='right'
  function draw(){
     if(gameOver){
      clearInterval(id)
-     ctx.font='50px sans-sarif'
-     ctx.fillText('game over',100,50)
+     ctx.font='80px sans-sarif'
+     ctx.fillText('game over',480,350)
      return;
     }
    ctx.clearRect(0,0,1400,700)
