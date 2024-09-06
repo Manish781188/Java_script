@@ -56,11 +56,11 @@
 
 // function in side the Object
 
-// let obj={
-//     a:10, b:20,
-//     sum:function(){
-//         // console.log(this);
-//         return this.a+this.b
-//     }
-// }
-// console.log(obj.sum());
+let obj={
+    a:10, b:20,
+    sum:function(){
+        // console.log(this);
+        return this.a+this.b
+    }
+}
+console.log(obj.sum());

@@ -7,7 +7,7 @@ let arr=[1,2,3,4,5,6,6]
     
 //map
 // let newArray = arr.map((value,index,array)=>{
-//     return index // it is return any value
+//     return value // it is return any value
 //  })
 //  console.log(newArray)
 
@@ -18,7 +18,7 @@ let arr=[1,2,3,4,5,6,6]
 // console.log(filter_reduce_value)
 
 //reduce
-// let sum= arr.reduce( function(a,b,index,array){
+// let sum= arr.reduce( function(a,b,index,array){  //It is use to add the array values
 //     return a+b
 // })
 // console.log(sum)
