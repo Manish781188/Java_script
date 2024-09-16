@@ -1,6 +1,6 @@
 ////call back hellllllllllllllllllllllll
 function step1(fn){
-    console.log(fn);
+      console.log(fn);
     setTimeout(()=>{
         console.log('select photo')
         fn()
@@ -15,6 +15,8 @@ function step2(fn){
     },4000)
 }
 function step3(fn){
+    //console.log(fn);
+    
     setTimeout(()=>{
         console.log('captioneddd')
         fn()
@@ -26,7 +28,7 @@ function step4(){
         
     },1000)
 }
-// step1()
+//  step1()
 // step2()
 // step3()
 // step4()

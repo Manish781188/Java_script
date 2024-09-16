@@ -6,7 +6,7 @@
 
 // Array functions
 
-// let arr = [12,4,6,3,6,7]
+let arr = [12,4,6,3,6,7]
 // arr.pop()
 // arr.push(7)
 // arr.shift()
@@ -14,6 +14,12 @@
 // console.log(arr)
 // console.log(arr.length);
 // console.log(arr.includes(6));//check value is present in the array or not 
+///console.log(arr.slice(2,5));   //sllice(start_index , End_index)
+// console.log(arr.splice(1,4,101,102,458)); //splice(start_ind,number of delete element, add element)  
+// console.log(arr.splice(2));//if one number is pass  that means delete alll elememt ofter  passed index
+// console.log(arr);
+
+
 
 
 // Object
@@ -21,7 +27,8 @@
 // let a={   // a is a object
 //     id:20,
 //     firstName:"hiiiiiiiiiii",
-//     isPass:true
+//     isPass:true,
+//     lastName:"hellooooo"
 // }
 // console.log(a.id)
 // console.log(a);
@@ -29,6 +36,8 @@
 //function using object
 // function sum(a){
 //     console.log(`${a.name}  ${a.lastName}`);
+//     console.log(a);
+    
 // }
 // let obj={
 //     id:1,  // id is keys and 1 is value
@@ -56,11 +65,11 @@
 
 // function in side the Object
 
-let obj={
-    a:10, b:20,
-    sum:function(){
-        // console.log(this);
-        return this.a+this.b
-    }
-}
-console.log(obj.sum());
+// let obj={
+//     a:10, b:20,
+//     sum:function(){
+//         // console.log(this);
+//         return this.a+this.b
+//     }
+// }
+// console.log(obj.sum());

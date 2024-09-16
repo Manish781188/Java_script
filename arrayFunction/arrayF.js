@@ -24,7 +24,10 @@ let arr=[1,2,3,4,5,6,6]
 // console.log(sum)
 
 // find
-let findnumber = arr.find((a,b,c)=>{
-    return a==3
-})
-console.log(findnumber) //if value is find then function is stop
+// let findnumber = arr.find((a,b,c)=>{
+//     return a==6
+// })
+// console.log(findnumber) //if value is find then function is stop
+//////include
+let check=arr.includes(7)
+console.log(check);

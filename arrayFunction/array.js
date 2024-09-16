@@ -1,18 +1,18 @@
 //1    // array of object
-let data=[
-    {
-        id:1,
-        name:"rahul"
-    },
-    {
-        id:2,
-        name:"modi jii"
-    },
-    {
-        id:3,
-        name:"rakesh"
-    }
-]
+// let data=[
+//     {
+//         id:1,
+//         name:"rahul"
+//     },
+//     {
+//         id:2,
+//         name:"modi jii"
+//     },
+//     {
+//         id:3,
+//         name:"rakesh"
+//     }
+// ]
 // data.map((a)=>{
 //     console.log(a.name)
 // })
@@ -49,4 +49,22 @@ let data=[
 // console.log(newarr3)
 
 
+////////////////////////////////////////////////////////////// Reduce function
 
+let n=prompt("Enter a number that you want to find sum ")
+let arr=[]
+for(let i=1;i<=n;i++){
+    arr[i-1]=i;
+}
+console.log(arr);
+let sum=arr.reduce((rec,curr)=>{
+return rec+curr;
+})
+ console.log(sum);
+
+ 
+ let factorial=arr.reduce((rec,curr)=>{
+    return rec*curr    
+ })
+ console.log(factorial);
+ 

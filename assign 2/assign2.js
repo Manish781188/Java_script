@@ -6,19 +6,13 @@ const arr = [
 ]
 
 const image = document.querySelector('img')
-image.style.height='200px'
+image.style.height='400px'
+image.style.width='400px'
 
 let num=0;
-// setInterval(function(){
-//     image.setAttribute('src',arr[num]);
-//     num = (num+1)%arr.length;    
+setInterval(function(){
+    image.setAttribute('src',arr[num]);
+    num = (num+1)%arr.length;    
    
       
-// },1000)
-
-for(let i=1;i<=8;i++){
-  num = (num+1)%arr.length; 
-// console.log(num);
-
-}
-
+},1000)
